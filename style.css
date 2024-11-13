@@ -1,0 +1,121 @@
+/* Các thiết lập chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #28334a;
+    color: #4CAF50;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav a {
+    color: #4CAF50;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('taybac.jpg') no-repeat center center/cover;
+    color: #4CAF50;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    color: #e7ea2a;
+    background-color: #ff9b43;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+}
+
+/* Phần Điểm Đến Nổi Bật */
+#destinations {
+    background-color: #fff;
+    margin: 1em 0;
+    padding: 2em; /* Tăng padding để làm nổi bật */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#destinations h2 {
+    font-size: 2em; /* Tăng kích thước tiêu đề */
+    color: #28334a;
+    text-align: center;
+}
+
+.destination {
+    display: flex;
+    align-items: center; /* Căn giữa hình ảnh và văn bản */
+    margin-bottom: 1.5em; /* Tăng khoảng cách giữa các điểm đến */
+}
+
+.destination img {
+    width: 250px; /* Tăng kích thước ảnh */
+    height: auto;
+    margin-right: 1.5em; /* Tăng khoảng cách bên phải ảnh */
+    border-radius: 8px;
+}
+
+.description h3 {
+    font-size: 1.5em; /* Tăng kích thước tiêu đề điểm đến */
+    color: #28334a;
+}
+
+.description p {
+    font-size: 1.1em; /* Tăng kích thước chữ trong đoạn mô tả */
+    line-height: 1.6;
+}
+
+.culture-img {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #28334a;
+    color: #4CAF50;
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
